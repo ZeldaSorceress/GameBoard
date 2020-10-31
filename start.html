@@ -1,6 +1,8 @@
 <!doctype html>
 <head>
     <title>Start Menu || BETA RELEASE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <style>
     html,body {
@@ -9,6 +11,8 @@
         text-align: center;
         background-image: url("https://c4.wallpaperflare.com/wallpaper/528/502/475/triforce-the-legend-of-zelda-video-games-zelda-hd-art-wallpaper-preview.jpg");
         background-repeat: unset;
+        font-family: 'Press Start 2P', cursive;
+        overflow: hidden;
     }
     table {
         width: 100%;
@@ -29,7 +33,7 @@
     }
     td:hover {
         cursor: pointer;
-        text-shadow: 2px 2px 5px black;
+        text-shadow: 2px 2px 5px yellow;
         color: yellow;
     }
     th, td {
@@ -42,7 +46,7 @@
         padding: 15px;
         width: 230px;
         cursor: pointer;
-        background-image: url("https://c4.wallpaperflare.com/wallpaper/528/502/475/triforce-the-legend-of-zelda-video-games-zelda-hd-art-wallpaper-preview.jpg");
+        background-color: black;
         color: white;
         background-position: -200px;
         font-size: 16px;
@@ -52,10 +56,47 @@
         border-radius: 10px;
         text-shadow: 2px 2px 5px black;
         box-shadow: 2px 2px 5px yellow;
+        font-family: 'Press Start 2P', cursive;
     }
     button:hover {
         color: yellow;
-        text-shadow: 2px 2px 5px white;
+        text-shadow: 2px 2px 5px yellow;
+    }
+    #snackbar {
+        visibility: hidden;
+        min-width: 250px;
+        margin-left: -125px;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        border-radius: 2px;
+        padding: 16px;
+        position: fixed;
+        z-index: 1;
+        left: 50%;
+        bottom: 30px;
+        font-size: 17px;
+    }
+    #snackbar.show {
+        visibility: visible;
+        -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    }
+    @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+    }
+    @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+    }
+    @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+    }
+    @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
     }
 </style>
 <body>
@@ -108,4 +149,13 @@
     <br>
     <br>
     <button>Score Keeper</button>
+    <button onclick="myFunction()">Special Message</button>
+    <div id="snackbar">It's dangerous to go alone</div>
 </body>
+<script>
+    function myFunction() {
+      var x = document.getElementById("snackbar");
+      x.className = "show";
+      setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+    }
+</script>
