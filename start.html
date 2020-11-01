@@ -2,6 +2,7 @@
 <head>
     <title>Start Menu || BETA RELEASE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://freepngimg.com/download/nintendo/83833-tri-force-symmetry-of-zelda-triforce-triangle.png" type="image/png" sizes="16x16">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <style>
@@ -13,6 +14,22 @@
         background-repeat: unset;
         font-family: 'Press Start 2P', cursive;
         overflow: hidden;
+    }
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%; 
+        min-height: 100%;
+    }
+    div.transbox {
+        margin: auto;
+        background-color: black;
+        border: 1px solid black;
+        opacity: 0.7;
+        box-shadow: 2px 2px 5px black;
+        text-align: center;
+        color: white;
     }
     table {
         width: 100%;
@@ -98,8 +115,18 @@
     from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
     }
+    a {
+        text-decoration: none;
+        color: yellow;
+    }
 </style>
 <body>
+    <!---Autoplay Background Video--->
+    <video autoplay muted loop id="myVideo">
+        <source src="zeldasky.mp4" type="video/mp4">
+    </video>
+    <!---End Autoplay Background Video--->
+    <div class="transbox">
     <center>
     <table>
         <tr>
@@ -110,52 +137,54 @@
             <th>Majora's Mask</th>
         </tr>
         <tr>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
-            <td>100</td>
+            <td><a href="">100</a></td>
+            <td><a href="">100</a></td>
+            <td><a href="">100</a></td>
+            <td><a href="">100</a></td>
+            <td><a href="">100</a></td>
         </tr>
         <tr>
-            <td>200</td>
-            <td>200</td>
-            <td>200</td>
-            <td>200</td>
-            <td>200</td>
+            <td><a href="">200</a></td>
+            <td><a href="">200</a></td>
+            <td><a href="">200</a></td>
+            <td><a href="">200</a></td>
+            <td><a href="">200</a></td>
         </tr>
         <tr>
-            <td>300</td>
-            <td>300</td>
-            <td>300</td>
-            <td>300</td>
-            <td>300</td>
+            <td><a href="">300</a></td>
+            <td><a href="">300</a></td>
+            <td><a href="">300</a></td>
+            <td><a href="">300</a></td>
+            <td><a href="">300</a></td>
         </tr>
         <tr>
-            <td>400</td>
-            <td>400</td>
-            <td>400</td>
-            <td>400</td>
-            <td>400</td>
+            <td><a href="">400</a></td>
+            <td><a href="">400</a></td>
+            <td><a href="">400</a></td>
+            <td><a href="">400</a></td>
+            <td><a href="">400</a></td>
         </tr>
         <tr>
-            <td>500</td>
-            <td>500</td>
-            <td>500</td>
-            <td>500</td>
-            <td>500</td>
+            <td><a href="">500</a></td>
+            <td><a href="">500</a></td>
+            <td><a href="">500</a></td>
+            <td><a href="">500</a></td>
+            <td><a href="">500</a></td>
         </tr>
     </table>
     </center>
     <br>
     <br>
-    <button>Score Keeper</button>
-    <button onclick="myFunction()">Special Message</button>
-    <div id="snackbar">It's dangerous to go alone</div>
+    <button onclick="myFunction()">Score Keeper</button>
+    <div id="snackbar">A link will be provided in the final release</div>
+    </div>
+    <br>
+    <br>
 </body>
 <script>
     function myFunction() {
       var x = document.getElementById("snackbar");
       x.className = "show";
-      setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+      setTimeout(function(){ x.className = x.className.replace("show", ""); }, 6000);
     }
 </script>
