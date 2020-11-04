@@ -7,7 +7,6 @@
 </head>
 <style>
     html,body {
-        background-color: blue;
         margin: auto;
         text-align: center;
         background-image: url("https://c4.wallpaperflare.com/wallpaper/528/502/475/triforce-the-legend-of-zelda-video-games-zelda-hd-art-wallpaper-preview.jpg");
@@ -26,6 +25,7 @@
         background-color: black;
         border: 1px solid black;
         opacity: 0.7;
+        border-radius: 10px;
         box-shadow: 2px 2px 5px black;
         text-align: center;
         color: white;
@@ -51,26 +51,28 @@
     }
     table {
         width: 100%;
+        color: white;
     }
     th {
         padding: 20px;
-        border-color: yellow;
+        border-color: black;
         border-style: solid;
         border-collapse: inherit;
         border-radius: 10px;
     }
     td {
         padding: 20px;
-        border-color: yellow;
+        border-color: black;
         border-style: solid;
         border-radius: 10px;
         text-align: center;
+        color: white;
     }
     td:hover {
         cursor: pointer;
         text-shadow: 2px 2px 5px yellow;
-        color: yellow;
-        border-color: black;
+        color: white;
+        border-color: yellow;
         box-shadow: 2px 2px 5px black;
     }
     th, td {
@@ -88,7 +90,7 @@
         background-position: -200px;
         font-size: 16px;
         font-style: bold;
-        border-color: yellow;
+        border-color: black;
         border-style: solid;
         border-radius: 10px;
         text-shadow: 2px 2px 5px black;
@@ -98,11 +100,14 @@
     button:hover {
         color: yellow;
         text-shadow: 2px 2px 5px yellow;
-        border-color: black;
+        border-color: yellow;
         box-shadow: 2px 2px 5px black;
     }
     a {
         text-decoration: none;
+        color: white;
+    }
+    a:hover {
         color: yellow;
     }
     audio {
@@ -127,6 +132,9 @@
         -moz-transform: scale(1.05);
         transform: scale(1.05);
     }
+    p {
+        font-size: 12px;
+    }
 </style>
 <body>
     <!---Autoplay Background Video--->
@@ -140,16 +148,16 @@
         <tr>
             <th>Twilight Princess<audio controls preload="metadata">
                 <source src="zeldatp.mp4" type="audio/mp4">
-            </audio></th>
+            </audio><p>@Nintendo Copyright</p></th>
             <th>Skyward Sword<audio controls preload="metadata">
                 <source src="zeldasky.mp4" type="audio/mp4">
-            </audio></th>
+            </audio><p>@Nintendo Copyright</p></th>
             <th>Ocarina of Time<audio controls preload="metadata">
                 <source src="zeldaocarina.mp4" type="audio/mp4">
-            </audio></th>
+            </audio><p>@Nintendo Copyright</p></th>
             <th>Majora's Mask<audio controls preload="metadata">
                 <source src="zeldamajora.mp4" type="audio/mp4">
-            </audio></th>
+            </audio><p>@Nintendo Copyright</p></th>
         </tr>
         <tr>
             <td><a href="">100</a></td>
