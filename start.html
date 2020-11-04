@@ -67,8 +67,18 @@
         border-radius: 10px;
         text-align: center;
         color: white;
+        -webkit-transition:all 0.5s linear;
+        -moz-transition:all 0.5s linear;
+        -o-transition:all 0.5s linear;
+        transition:all 0.5s linear;
     }
-    td:hover {
+    td:hover, td:focus, td:active {
+        -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+        -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+        box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        transform: scale(1.05);
         cursor: pointer;
         text-shadow: 2px 2px 5px yellow;
         color: white;
@@ -106,9 +116,21 @@
     a {
         text-decoration: none;
         color: white;
+        -webkit-transition:all 0.5s linear;
+        -moz-transition:all 0.5s linear;
+        -o-transition:all 0.5s linear;
+        transition:all 0.5s linear;
     }
-    a:hover {
-        color: yellow;
+    a:hover, a:focus, a:active {
+        -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+        -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+        box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        transform: scale(1.05);
+        text-shadow: 2px 2px 5px yellow;
+        border-color: yellow;
+        box-shadow: 2px 2px 5px black;
     }
     audio {
         -webkit-transition:all 0.5s linear;
@@ -153,14 +175,14 @@
                 <source src="zeldasky.mp4" type="audio/mp4">
             </audio><p>@Nintendo Copyright</p></th>
             <th>Ocarina of Time<audio controls preload="metadata">
-                <source src="zeldaocarina.mp4" type="audio/mp4">
+                <source src="zeldaocarina1.mp4" type="audio/mp4">
             </audio><p>@Nintendo Copyright</p></th>
             <th>Majora's Mask<audio controls preload="metadata">
                 <source src="zeldamajora.mp4" type="audio/mp4">
             </audio><p>@Nintendo Copyright</p></th>
         </tr>
         <tr>
-            <td><a href="">100</a></td>
+            <td><a href="tp100.html">100</a></td>
             <td><a href="">100</a></td>
             <td><a href="">100</a></td>
             <td><a href="">100</a></td>
