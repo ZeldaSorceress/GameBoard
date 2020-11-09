@@ -157,6 +157,12 @@
     p {
         font-size: 12px;
     }
+    #myDIV {
+        width: 100%;
+        padding: 50px 0;
+        text-align: center;
+        margin-top: 20px;
+    }
 </style>
 <body>
     <!---Autoplay Background Video--->
@@ -172,7 +178,7 @@
                 <source src="zeldatp.mp4" type="audio/mp4">
             </audio><p>@Nintendo Copyright</p></th>
             <th>Skyward Sword<audio controls preload="metadata">
-                <source src="zeldasky.mp4" type="audio/mp4">
+                <source src="zeldaselect.mp3" type="audio/mp3">
             </audio><p>@Nintendo Copyright</p></th>
             <th>Ocarina of Time<audio controls preload="metadata">
                 <source src="zeldaocarina1.mp4" type="audio/mp4">
@@ -215,7 +221,20 @@
     </center>
     <br>
     <br>
-    <button>Score Keeper</button>
+    <button onclick="myFunction()">Score Keeper</button>
+    <div id="myDIV">
+    A link will be provided in the final release
+    </div>
     <br>
     <br>
 </body>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myDIV");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+</script>
