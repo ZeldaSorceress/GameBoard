@@ -4,156 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="https://freepngimg.com/download/nintendo/83833-tri-force-symmetry-of-zelda-triforce-triangle.png" type="image/png" sizes="16x16">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="audio.css" rel="stylesheet">
+    <link href="background.css" rel="stylesheet">
+    <link href="links.css" rel="stylesheet">
+    <link href="tables.css" rel="stylesheet">
 </head>
 <style>
-    html,body {
-        margin: auto;
-        text-align: center;
-        background-image: url("https://c4.wallpaperflare.com/wallpaper/528/502/475/triforce-the-legend-of-zelda-video-games-zelda-hd-art-wallpaper-preview.jpg");
-        background-repeat: unset;
-        font-family: 'Press Start 2P', cursive;
-    }
-    #myVideo {
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        min-width: 100%; 
-        min-height: 100%;
-    }
-    div.transbox {
-        margin: 25px;
-        background-color: black;
-        border: 1px solid black;
-        opacity: 0.7;
-        border-radius: 10px;
-        box-shadow: 2px 2px 5px black;
-        text-align: center;
-        color: white;
-        margin-top: 100px;
-    }
-    /* width */
-    ::-webkit-scrollbar {
-        width: 10px;
-    }
-    /* Track */
-    ::-webkit-scrollbar-track {
-        background: black;
-    }
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-        background: black; 
-    }
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-        background: yellow;
-        box-shadow: 1px 1px 10px yellow;
-        border-radius: 10px;
-    }
-    table {
-        width: 100%;
-        color: white;
-    }
-    th {
-        padding: 20px;
-        border-color: black;
-        border-style: solid;
-        border-collapse: inherit;
-        border-radius: 10px;
-    }
-    td {
-        padding: 20px;
-        border-color: black;
-        border-style: solid;
-        border-radius: 10px;
-        text-align: center;
-        color: white;
-        -webkit-transition:all 0.5s linear;
-        -moz-transition:all 0.5s linear;
-        -o-transition:all 0.5s linear;
-        transition:all 0.5s linear;
-    }
-    td:hover, td:focus, td:active {
-        -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-        -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-        box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-        -webkit-transform: scale(1.05);
-        -moz-transform: scale(1.05);
-        transform: scale(1.05);
-        cursor: pointer;
-        text-shadow: 2px 2px 5px yellow;
-        color: white;
-        border-color: yellow;
-        box-shadow: 2px 2px 5px black;
-    }
-    th, td {
-        text-shadow: 2px 2px 5px black;
-        color: white;
-        box-shadow: 2px 2px 5px yellow;
-        font-size: 28px;
-    }
-    button {
-        padding: 15px;
-        width: 230px;
-        cursor: pointer;
-        background-color: black;
-        color: white;
-        background-position: -200px;
-        font-size: 16px;
-        font-style: bold;
-        border-color: black;
-        border-style: solid;
-        border-radius: 10px;
-        text-shadow: 2px 2px 5px black;
-        box-shadow: 2px 2px 5px yellow;
-        font-family: 'Press Start 2P', cursive;
-    }
-    button:hover {
-        color: yellow;
-        text-shadow: 2px 2px 5px yellow;
-        border-color: yellow;
-        box-shadow: 2px 2px 5px black;
-    }
-    a {
-        text-decoration: none;
-        color: white;
-        -webkit-transition:all 0.5s linear;
-        -moz-transition:all 0.5s linear;
-        -o-transition:all 0.5s linear;
-        transition:all 0.5s linear;
-    }
-    a:hover, a:focus, a:active {
-        -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-        -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-        box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-        -webkit-transform: scale(1.05);
-        -moz-transform: scale(1.05);
-        transform: scale(1.05);
-        text-shadow: 2px 2px 5px yellow;
-        border-color: yellow;
-        box-shadow: 2px 2px 5px black;
-    }
-    audio {
-        -webkit-transition:all 0.5s linear;
-        -moz-transition:all 0.5s linear;
-        -o-transition:all 0.5s linear;
-        transition:all 0.5s linear;
-        -moz-box-shadow: 2px 2px 4px 0px #006773;
-        -webkit-box-shadow:  2px 2px 4px 0px #006773;
-        box-shadow: 2px 2px 4px 0px #006773;
-        -moz-border-radius:7px 7px 7px 7px ;
-        -webkit-border-radius:7px 7px 7px 7px ;
-        border-radius:7px 7px 7px 7px ;
-        width: 200px;
-        height: 20px;
-    }
-    audio:hover, audio:focus, audio:active {
-        -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-        -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-        box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-        -webkit-transform: scale(1.05);
-        -moz-transform: scale(1.05);
-        transform: scale(1.05);
-    }
     p {
         font-size: 12px;
     }
@@ -174,18 +30,10 @@
     <center>
     <table>
         <tr>
-            <th>Twilight Princess<audio controls preload="metadata">
-                <source src="zeldatp.mp4" type="audio/mp4">
-            </audio><p>@Nintendo Copyright</p></th>
-            <th>Skyward Sword<audio controls preload="metadata">
-                <source src="zeldaselect.mp3" type="audio/mp3">
-            </audio><p>@Nintendo Copyright</p></th>
-            <th>Ocarina of Time<audio controls preload="metadata">
-                <source src="zeldaocarina1.mp4" type="audio/mp4">
-            </audio><p>@Nintendo Copyright</p></th>
-            <th>Majora's Mask<audio controls preload="metadata">
-                <source src="zeldamajora.mp4" type="audio/mp4">
-            </audio><p>@Nintendo Copyright</p></th>
+            <th>Twilight Princess</th>
+            <th>Skyward Sword</th>
+            <th>Ocarina of Time</th>
+            <th>Majora's Mask</th>
         </tr>
         <tr>
             <td><a href="tp100.html">100</a></td>
@@ -225,6 +73,7 @@
     <div id="myDIV">
     A link will be provided in the final release
     </div>
+    <audio src="zeldaselect.mp3" autoplay></audio>
     <br>
     <br>
 </body>
@@ -237,4 +86,9 @@
         x.style.display = "none";
       }
     }
+    window.addEventListener("DOMContentLoaded", event => {
+        const audio = document.querySelector("audio");
+        audio.volume = 0.2;
+        audio.play();
+    });
 </script>

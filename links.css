@@ -1,0 +1,41 @@
+button {
+    padding: 15px;
+    width: 230px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    background-position: -200px;
+    font-size: 16px;
+    font-style: bold;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 5px yellow;
+    font-family: 'Press Start 2P', cursive;
+}
+button:hover {
+    color: yellow;
+    text-shadow: 2px 2px 5px yellow;
+    border-color: yellow;
+    box-shadow: 2px 2px 5px black;
+}
+a {
+    text-decoration: none;
+    color: white;
+    -webkit-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+    transition:all 0.5s linear;
+}
+a:hover, a:focus, a:active {
+    -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+    -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+    box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+    text-shadow: 2px 2px 5px yellow;
+    border-color: yellow;
+    box-shadow: 2px 2px 5px black;
+}
