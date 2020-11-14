@@ -8,6 +8,10 @@
     <link href="background.css" rel="stylesheet">
     <link href="links.css" rel="stylesheet">
     <link href="tables.css" rel="stylesheet">
+    <link href="ocarina.css" rel="stylesheet">
+    <link href="majora.css" rel="stylesheet">
+    <link href="skyward.css" rel="stylesheet">
+    <link href="twilight.css" rel="stylesheet">
 </head>
 <style>
     p {
@@ -30,65 +34,53 @@
     <center>
     <table>
         <tr>
-            <th>Twilight Princess</th>
-            <th>Skyward Sword</th>
-            <th>Ocarina of Time</th>
-            <th>Majora's Mask</th>
+            <th class="twilightselect">Twilight Princess</th>
+            <th class="skywardselect">Skyward Sword</th>
+            <th class="ocarinaselect">Ocarina of Time</th>
+            <th class="majoraselect">Majora's Mask</th>
         </tr>
         <tr>
-            <td><a href="tp100.html">100</a></td>
-            <td><a href="sky100.html">100</a></td>
-            <td><a href="">100</a></td>
-            <td><a href="">100</a></td>
+            <td><a href="tp100.html" class="twilightselect">100</a></td>
+            <td><a href="sky100.html" class="skywardselect">100</a></td>
+            <td><a href="" class="ocarinaselect">100</a></td>
+            <td><a href="" class="majoraselect">100</a></td>
         </tr>
         <tr>
-            <td><a href="">200</a></td>
-            <td><a href="">200</a></td>
-            <td><a href="">200</a></td>
-            <td><a href="">200</a></td>
+            <td><a href="" class="twilightselect">200</a></td>
+            <td><a href="" class="skywardselect">200</a></td>
+            <td><a href="" class="ocarinaselect">200</a></td>
+            <td><a href="" class="majoraselect">200</a></td>
         </tr>
         <tr>
-            <td><a href="">300</a></td>
-            <td><a href="">300</a></td>
-            <td><a href="">300</a></td>
-            <td><a href="">300</a></td>
+            <td><a href="" class="twilightselect">300</a></td>
+            <td><a href="" class="skywardselect">300</a></td>
+            <td><a href="" class="ocarinaselect">300</a></td>
+            <td><a href="" class="majoraselect">300</a></td>
         </tr>
         <tr>
-            <td><a href="">400</a></td>
-            <td><a href="">400</a></td>
-            <td><a href="">400</a></td>
-            <td><a href="">400</a></td>
+            <td><a href="" class="twilightselect">400</a></td>
+            <td><a href="" class="skywardselect">400</a></td>
+            <td><a href="" class="ocarinaselect">400</a></td>
+            <td><a href="" class="majoraselect">400</a></td>
         </tr>
         <tr>
-            <td><a href="">500</a></td>
-            <td><a href="">500</a></td>
-            <td><a href="">500</a></td>
-            <td><a href="">500</a></td>
+            <td><a href="" class="twilightselect">500</a></td>
+            <td><a href="" class="skywardselect">500</a></td>
+            <td><a href="" class="ocarinaselect">500</a></td>
+            <td><a href="" class="majoraselect">500</a></td>
         </tr>
     </table>
     </center>
     <br>
     <br>
-    <button onclick="myFunction()">Score Keeper</button>
-    <div id="myDIV">
-    A link will be provided in the final release
-    </div>
-    <audio src="zeldaselect.mp3" autoplay></audio>
+    <button>Score Keeper</button>
     <br>
     <br>
+    <footer>
+        <p>A link will be provided in the final release</p>
+        <p>@Nintendo copyright</p>
+    </footer>
 </body>
 <script>
-    function myFunction() {
-      var x = document.getElementById("myDIV");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
-    }
-    window.addEventListener("DOMContentLoaded", event => {
-        const audio = document.querySelector("audio");
-        audio.volume = 0.2;
-        audio.play();
-    });
+    window.alert("Thank you for downloading my Zelda Jeapordy game! :D");
 </script>
