@@ -3,7 +3,6 @@
     <title>Correct Answer || BETA RELEASE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link href="audio.css" rel="stylesheet">
     <link href="background.css" rel="stylesheet">
     <link href="links.css" rel="stylesheet">
     <link href="tables.css" rel="stylesheet">
@@ -14,12 +13,35 @@
     <link rel="icon" href="purplelinktp.jpg" type="image/png" sizes="16x16">
     <link href="images.css" rel="stylesheet">
 </head>
+<style>
+    .navbar {
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+        color: white;
+    }
+</style>
 <body>
+<!---NavBar--->
+    <section class="navbar">
+        <p id="score"></p>
+        <textarea id="save"></textarea>
+    </section>
+<!---End NavBar--->
     <div class="transbox">
         <h1><img src="rupee.png">LEVEL UP!<img src="rupee.png"></h1>
         <h3>You got the correct answer!</h3>
         <br>
         <br>
         <a href="start.html">NEXT QUESTION</a>
+        <button id="save">SAVE</button>
     </div>
+    <script src="scorekeeper.js"></script>
+    <script>
+        (funtion (global) {
+            document.getElementById("save").addEventListener("click", function () {
+                global.localStorage.setItem("mySharedData", document.getElementById("output").value);
+            }, false);
+        }(window));
+    </script>
 </body>

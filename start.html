@@ -1,9 +1,9 @@
 <!doctype html>
+<html>
 <head>
     <title>Start Menu || BETA RELEASE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link href="audio.css" rel="stylesheet">
     <link href="background.css" rel="stylesheet">
     <link href="links.css" rel="stylesheet">
     <link href="tables.css" rel="stylesheet">
@@ -23,20 +23,11 @@
         padding: 10px;
         color: white;
     }
-    .about {
-        text-align: left;
-    }
-    .contact {
-        text-align: left;
-    }
-    li {
-        font-size: 14px;
-    }
 </style>
 <body>
 <!---NavBar--->
     <section class="navbar">
-        <a href="">Refresh Page</a>
+        <p id="score"></p>
     </section>
 <!---End NavBar--->
 <!---GameBoard--->
@@ -52,32 +43,32 @@
         <tr>
             <td><a href="tp100.html" class="twilightselect">100</a></td>
             <td><a href="sky100.html" class="skywardselect">100</a></td>
-            <td><a href="" class="ocarinaselect">100</a></td>
-            <td><a href="" class="majoraselect">100</a></td>
+            <td><a href="ocarina100.html" class="ocarinaselect">100</a></td>
+            <td><a href="majora100.html" class="majoraselect">100</a></td>
         </tr>
         <tr>
-            <td><a href="" class="twilightselect">200</a></td>
-            <td><a href="" class="skywardselect">200</a></td>
-            <td><a href="" class="ocarinaselect">200</a></td>
-            <td><a href="" class="majoraselect">200</a></td>
+            <td><a href="tp200.html" class="twilightselect">200</a></td>
+            <td><a href="sky200.html" class="skywardselect">200</a></td>
+            <td><a href="ocarina200.html" class="ocarinaselect">200</a></td>
+            <td><a href="majora200.html" class="majoraselect">200</a></td>
         </tr>
         <tr>
-            <td><a href="" class="twilightselect">300</a></td>
-            <td><a href="" class="skywardselect">300</a></td>
-            <td><a href="" class="ocarinaselect">300</a></td>
-            <td><a href="" class="majoraselect">300</a></td>
+            <td><a href="tp300.html" class="twilightselect">300</a></td>
+            <td><a href="sky300.html" class="skywardselect">300</a></td>
+            <td><a href="ocarina300.html" class="ocarinaselect">300</a></td>
+            <td><a href="majora300.html" class="majoraselect">300</a></td>
         </tr>
         <tr>
-            <td><a href="" class="twilightselect">400</a></td>
-            <td><a href="" class="skywardselect">400</a></td>
-            <td><a href="" class="ocarinaselect">400</a></td>
-            <td><a href="" class="majoraselect">400</a></td>
+            <td><a href="tp400.html" class="twilightselect">400</a></td>
+            <td><a href="sky400.html" class="skywardselect">400</a></td>
+            <td><a href="ocarina400.html" class="ocarinaselect">400</a></td>
+            <td><a href="majora400.html" class="majoraselect">400</a></td>
         </tr>
         <tr>
-            <td><a href="" class="twilightselect">500</a></td>
-            <td><a href="" class="skywardselect">500</a></td>
-            <td><a href="" class="ocarinaselect">500</a></td>
-            <td><a href="" class="majoraselect">500</a></td>
+            <td><a href="tp500.html" class="twilightselect">500</a></td>
+            <td><a href="sky500.html" class="skywardselect">500</a></td>
+            <td><a href="ocarina500.html" class="ocarinaselect">500</a></td>
+            <td><a href="majora500.html" class="majoraselect">500</a></td>
         </tr>
     </table>
     </center>
@@ -86,23 +77,10 @@
     <button>Score Keeper</button>
     <br>
     <br>
-<!---About--->
-    <section class="about">
-        <h2>About</h2>
-        <p>I've always wanted to make a Zelda-style game. So I decided to create a fun jeapordy game. It will see if you remember the Zelda series. I hope you enjoy playing this game with friends or family. If you want to contact me, then look below for a way to contact me about the game i've made.</p>
-    </section>
-<!---End About--->
-<!---Contact--->
-    <section class="contact">
-        <h2>Contact</h2>
-        <ul>
-            <li><strong>My Discord:</strong> ZeldaSorceress#1310</li>
-        </ul>
-    </section>
-<!---End Contact--->
-<hr>
     <footer>
         <p>@Nintendo copyright</p>
     </footer>
 <!---End GameBoard--->
+<script src="scorekeeper.js"></script>
 </body>
+</html>

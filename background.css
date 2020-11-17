@@ -5,6 +5,7 @@ html,body {
     background-repeat: unset;
     font-family: 'Press Start 2P', cursive;
     outline: none;
+    color: white;
 }
 #myVideo {
     position: fixed;
