@@ -4,6 +4,7 @@ html,body {
     background-image: url("https://c4.wallpaperflare.com/wallpaper/528/502/475/triforce-the-legend-of-zelda-video-games-zelda-hd-art-wallpaper-preview.jpg");
     background-repeat: unset;
     font-family: 'Press Start 2P', cursive;
+    outline: none;
 }
 #myVideo {
     position: fixed;

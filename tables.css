@@ -16,23 +16,11 @@ td {
     border-radius: 10px;
     text-align: center;
     color: white;
-    -webkit-transition:all 0.5s linear;
-    -moz-transition:all 0.5s linear;
-    -o-transition:all 0.5s linear;
-    transition:all 0.5s linear;
 }
 td:hover, td:focus, td:active {
-    -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-    -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-    box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
-    -webkit-transform: scale(1.05);
-    -moz-transform: scale(1.05);
-    transform: scale(1.05);
     cursor: pointer;
     text-shadow: 2px 2px 5px yellow;
     color: white;
-    border-color: yellow;
-    box-shadow: 2px 2px 5px black;
 }
 th, td {
     text-shadow: 2px 2px 5px black;

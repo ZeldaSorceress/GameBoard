@@ -15,15 +15,31 @@
 </head>
 <style>
     p {
-        font-size: 12px;
+        font-size: 14px;
+    }
+    .navbar {
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+        color: white;
+    }
+    .about {
+        text-align: left;
+    }
+    .contact {
+        text-align: left;
+    }
+    li {
+        font-size: 14px;
     }
 </style>
 <body>
-    <!---Autoplay Background Video--->
-    <video autoplay muted loop id="myVideo">
-        <source src="zeldastart.mp4" type="video/mp4">
-    </video>
-    <!---End Autoplay Background Video--->
+<!---NavBar--->
+    <section class="navbar">
+        <a href="">Refresh Page</a>
+    </section>
+<!---End NavBar--->
+<!---GameBoard--->
     <div class="transbox">
     <center>
     <table>
@@ -70,11 +86,23 @@
     <button>Score Keeper</button>
     <br>
     <br>
+<!---About--->
+    <section class="about">
+        <h2>About</h2>
+        <p>I've always wanted to make a Zelda-style game. So I decided to create a fun jeapordy game. It will see if you remember the Zelda series. I hope you enjoy playing this game with friends or family. If you want to contact me, then look below for a way to contact me about the game i've made.</p>
+    </section>
+<!---End About--->
+<!---Contact--->
+    <section class="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li><strong>My Discord:</strong> ZeldaSorceress#1310</li>
+        </ul>
+    </section>
+<!---End Contact--->
+<hr>
     <footer>
-        <p>A link will be provided in the final release</p>
         <p>@Nintendo copyright</p>
     </footer>
+<!---End GameBoard--->
 </body>
-<script>
-    window.alert("Thank you for downloading my Zelda Jeapordy game! :D");
-</script>
