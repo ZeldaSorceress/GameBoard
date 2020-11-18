@@ -17,10 +17,8 @@ td {
     text-align: center;
     color: white;
 }
-td:hover, td:focus, td:active {
+td:hover {
     cursor: pointer;
-    text-shadow: 2px 2px 5px yellow;
-    color: white;
 }
 th, td {
     text-shadow: 2px 2px 5px black;
