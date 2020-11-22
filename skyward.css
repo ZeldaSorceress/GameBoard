@@ -1,6 +1,7 @@
 .skywardselect {
     color: aqua;
+    text-shadow: 1px 1px 10px aqua;
 }
 .skywardselect:hover {
-    text-shadow: 2px 2px 5px blue;
+    text-shadow: 2px 2px 5px rgb(27, 177, 177);
 }

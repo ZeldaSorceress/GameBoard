@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="background.css" rel="stylesheet">
-    <link href="links.css" rel="stylesheet">
     <link href="tables.css" rel="stylesheet">
     <link href="skyward.css" rel="stylesheet">
     <link href="twilight.css" rel="stylesheet">
@@ -17,7 +16,6 @@
 </head>
 <style>
     .navbar {
-        background-color: black;
         text-align: center;
         padding: 10px;
         color: white;
@@ -29,15 +27,29 @@
         padding: 10px;
         box-shadow: 1px 1px 10px yellow;
     }
+    #setting {
+        color: black;
+    }
+    #setting:hover {
+        border-bottom: 2px solid black;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover {
+        text-shadow: 1px 1px 10px yellow;
+    }
 </style>
 <body>
 <!---NavBar--->
     <section class="navbar">
-        <a href="start.html">START GAME</a>
+        <a href="start.html" id="setting">START GAME</a>
     </section>
 <!---End NavBar--->
 <!---Settings--->
     <div class="transbox">
+        <br>
         <h2>GAME SETTINGS</h2>
         <br>
         <br>
@@ -49,18 +61,10 @@
         <div class="fpsselect">
             <input type="range" class="slider">
         </div>
-        <p class="graphic">GRAPHICS:</p>
-        <div class="graphicselect">
-            <input type="range" class="slider">
-        </div>
-        <p class="shadow">SHADOWS:</p>
-        <div class="shadowselect">
-            <input type="range" class="slider">
-        </div>
         <br>
         <br>
-        <a href="" class="a">LIGHT THEME</a>
-        <a href="" class="a">DARK THEME</a>
+        <p>These settings are in development so there<br> will be no permanent change to your game experience.</p>
+        <br>
     </div>
 <!---End Settings--->
 </body>

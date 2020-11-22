@@ -5,14 +5,13 @@ table {
 th {
     padding: 20px;
     border-color: black;
-    border-style: solid;
-    border-collapse: inherit;
+    border-style: hidden;
     border-radius: 10px;
 }
 td {
     padding: 20px;
     border-color: black;
-    border-style: solid;
+    border-style: hidden;
     border-radius: 10px;
     text-align: center;
     color: white;
@@ -20,9 +19,11 @@ td {
 td:hover {
     cursor: pointer;
 }
+th:hover {
+    cursor: not-allowed;
+}
 th, td {
     text-shadow: 2px 2px 5px black;
     color: white;
-    box-shadow: 2px 2px 5px yellow;
     font-size: 28px;
 }

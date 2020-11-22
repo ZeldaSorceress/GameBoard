@@ -1,24 +1,16 @@
 html,body {
     margin: auto;
     text-align: center;
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/528/502/475/triforce-the-legend-of-zelda-video-games-zelda-hd-art-wallpaper-preview.jpg");
-    background-repeat: unset;
+    background-image: url("https://wallpaperset.com/w/full/2/7/6/158515.jpg");
+    background-position: center;
     font-family: 'Press Start 2P', cursive;
     outline: none;
     color: white;
 }
-#myVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-}
 div.transbox {
     margin: 25px;
-    background-color: black;
-    border: 1px solid black;
-    opacity: 0.7;
+    background-color: gray;
+    opacity: 0.9;
     border-radius: 10px;
     box-shadow: 2px 2px 5px black;
     text-align: center;
@@ -27,7 +19,7 @@ div.transbox {
 }
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 100%;
 }
 /* Track */
 ::-webkit-scrollbar-track {

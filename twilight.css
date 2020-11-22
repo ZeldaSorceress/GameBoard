@@ -1,6 +1,8 @@
 .twilightselect {
     color: rgb(200, 212, 91);
+    text-shadow: 1px 1px 10px rgb(200, 212, 91);
 }
 .twilightselect:hover {
-    text-shadow: 2px 2px 5px darkolivegreen;
+    text-shadow: 1px 1px 10px darkolivegreen;
+    opacity: 1;
 }

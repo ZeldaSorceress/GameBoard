@@ -1,0 +1,7 @@
+.calamityselect {
+    color: rgb(189, 10, 64);
+    text-shadow: 1px 1px 10px rgb(189, 10, 64);
+}
+.calamityselect:hover {
+    text-shadow: 1px 1px 10px purple;
+}

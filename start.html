@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="background.css" rel="stylesheet">
-    <link href="links.css" rel="stylesheet">
     <link href="tables.css" rel="stylesheet">
     <link href="skyward.css" rel="stylesheet">
     <link href="twilight.css" rel="stylesheet">
+    <link href="calamity.css" rel="stylesheet">
     <link rel="icon" href="triforce.png" type="image/png" sizes="16x16">
 </head>
 <style>
@@ -16,20 +16,29 @@
         font-size: 14px;
     }
     .navbar {
-        background-color: black;
         text-align: center;
         padding: 10px;
+        color: black;
+    }
+    #setting {
+        color: black;
+    }
+    #setting:hover {
+        border-bottom: 2px solid black;
+    }
+    a {
+        text-decoration: none;
         color: white;
     }
-    #tpbackground {
-        background-image: url("tplogo.png");
+    a:hover {
+        text-shadow: 1px 1px 10px yellow;
     }
 </style>
 <body>
 <!---NavBar--->
     <section class="navbar">
         <p id="score"></p>
-        <a href="settings.html">GAME SETTINGS</a>
+        <a href="settings.html" id="setting">GAME SETTINGS</a>
     </section>
 <!---End NavBar--->
 <!---GameBoard--->
@@ -39,37 +48,41 @@
         <tr>
             <th class="twilightselect">Twilight Princess</th>
             <th class="skywardselect">Skyward Sword</th>
+            <th class="calamityselect">Age of Calamity</th>
         </tr>
         <tr>
             <td><a href="tp100.html" class="twilightselect">100</a></td>
             <td><a href="sky100.html" class="skywardselect">100</a></td>
+            <td><a href="calamity100.html" class="calamityselect">100</a></td>
         </tr>
         <tr>
             <td><a href="tp200.html" class="twilightselect">200</a></td>
             <td><a href="sky200.html" class="skywardselect">200</a></td>
+            <td><a href="calamity200.html" class="calamityselect">200</a></td>
         </tr>
         <tr>
             <td><a href="tp300.html" class="twilightselect">300</a></td>
             <td><a href="sky300.html" class="skywardselect">300</a></td>
+            <td><a href="calamity300.html" class="calamityselect">300</a></td>
         </tr>
         <tr>
             <td><a href="tp400.html" class="twilightselect">400</a></td>
             <td><a href="sky400.html" class="skywardselect">400</a></td>
+            <td><a href="calamity400.html" class="calamityselect">400</a></td>
         </tr>
         <tr>
             <td><a href="tp500.html" class="twilightselect">500</a></td>
             <td><a href="sky500.html" class="skywardselect">500</a></td>
+            <td><a href="calamity500.html" class="calamityselect">500</a></td>
         </tr>
     </table>
     </center>
     <br>
     <br>
-    <button>Score Keeper</button>
-    <br>
-    <br>
     <footer>
         <p>@Nintendo copyright</p>
     </footer>
+    <br>
 <!---End GameBoard--->
 <script src="scorekeeper.js"></script>
 </body>
