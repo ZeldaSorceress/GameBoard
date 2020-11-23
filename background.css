@@ -3,6 +3,9 @@ html,body {
     text-align: center;
     background-image: url("https://wallpaperset.com/w/full/2/7/6/158515.jpg");
     background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
     font-family: 'Press Start 2P', cursive;
     outline: none;
     color: white;
