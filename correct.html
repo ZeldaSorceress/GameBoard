@@ -4,21 +4,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="background.css" rel="stylesheet">
-    <link href="links.css" rel="stylesheet">
     <link href="tables.css" rel="stylesheet">
-    <link href="ocarina.css" rel="stylesheet">
-    <link href="majora.css" rel="stylesheet">
-    <link href="skyward.css" rel="stylesheet">
-    <link href="twilight.css" rel="stylesheet">
     <link rel="icon" href="purplelinktp.jpg" type="image/png" sizes="16x16">
     <link href="images.css" rel="stylesheet">
 </head>
 <style>
+    body {
+        width: 60%;
+    }
     .navbar {
-        background-color: black;
         text-align: center;
         padding: 10px;
         color: white;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover {
+        text-shadow: 1px 1px 10px yellow;
+    }
+    .neon {
+        color: limegreen;
+        text-shadow: 1px 1px 10px lime;
+    }
+    div.transbox {
+        margin: 25px;
+        background-color: black;
+        opacity: 0.9;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px black;
+        text-align: center;
+        color: white;
+        margin-top: 100px;
     }
 </style>
 <body>
@@ -28,11 +46,14 @@
     </section>
 <!---End NavBar--->
     <div class="transbox">
-        <h1><img src="rupee.png">LEVEL UP!<img src="rupee.png"></h1>
-        <h3>You got the correct answer!</h3>
+        <br>
+        <h1 class="neon"><img src="rupee.png">LEVEL UP!<img src="rupee.png"></h1>
+        <h3 class="neon">You got the correct answer!</h3>
         <br>
         <br>
-        <a href="start.html">NEXT QUESTION</a>
+        <a href="start.html" class="neon">NEXT QUESTION</a>
+        <br>
+        <br>
     </div>
     <script src="scorekeeper.js"></script>
     <script></script>

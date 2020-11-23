@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="background.css" rel="stylesheet">
-    <link href="links.css" rel="stylesheet">
     <link href="tables.css" rel="stylesheet">
     <link href="ocarina.css" rel="stylesheet">
     <link href="majora.css" rel="stylesheet">
@@ -14,11 +13,34 @@
     <link rel="icon" href="purplelinktp.jpg" type="image/png" sizes="16x16">
 </head>
 <style>
+    body {
+        width: 60%;
+    }
     .navbar {
-        background-color: black;
         text-align: center;
         padding: 10px;
         color: white;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    a:hover {
+        text-shadow: 1px 1px 10px yellow;
+    }
+    .neon {
+        color: darkred;
+        text-shadow: 1px 1px 10px darkred;
+    }
+    div.transbox {
+        margin: 25px;
+        background-color: black;
+        opacity: 0.9;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px black;
+        text-align: center;
+        color: white;
+        margin-top: 100px;
     }
 </style>
 <body>
@@ -28,10 +50,12 @@
     </section>
 <!---End NavBar--->
     <div class="transbox">
-        <h1><img src="ganon.png">GAME OVER<img src="ganon.png"></h1>
-        <h3>Go back and try again</h3>
+        <h1 class="neon"><img src="ganon.png">GAME OVER<img src="ganon.png"></h1>
+        <h3 class="neon">Go back and try again</h3>
         <br>
         <br>
-        <a href="start.html">START OVER</a>
+        <a href="start.html" class="neon">START OVER</a>
+        <br>
+        <br>
     </div>
 </body>
