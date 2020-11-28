@@ -28,7 +28,7 @@
         box-shadow: 1px 1px 10px yellow;
     }
     #setting {
-        color: black;
+        color: white;
     }
     #setting:hover {
         border-bottom: 2px solid black;
@@ -40,30 +40,36 @@
     a:hover {
         text-shadow: 1px 1px 10px yellow;
     }
+    .neon {
+        text-shadow: 1px 1px 10px white;
+        color: white;
+    }
 </style>
 <body>
 <!---NavBar--->
     <section class="navbar">
-        <a href="start.html" id="setting">START GAME</a>
+        <a href="start.html" id="setting" class="neon">START GAME</a>
     </section>
 <!---End NavBar--->
 <!---Settings--->
     <div class="transbox">
         <br>
-        <h2>GAME SETTINGS</h2>
+        <h2 class="neon">GAME SETTINGS</h2>
         <br>
         <br>
-        <p class="fps">MAX FPS:</p>
-        <div class="fpsselect">
-            <input type="range" class="slider">
-        </div>
-        <p class="fps1">MIN FPS:</p>
-        <div class="fpsselect">
-            <input type="range" class="slider">
-        </div>
+        <section class="neon">
+            <p class="fps">MAX FPS:</p>
+            <div class="fpsselect">
+                <input type="range" class="slider">
+            </div>
+            <p class="fps1">MIN FPS:</p>
+            <div class="fpsselect">
+                <input type="range" class="slider">
+            </div>
+        </section>
         <br>
         <br>
-        <p>These settings are in development so there<br> will be no permanent change to your game experience.</p>
+        <p class="neon">These settings are in development so there<br> will be no permanent change to your game experience.</p>
         <br>
     </div>
 <!---End Settings--->

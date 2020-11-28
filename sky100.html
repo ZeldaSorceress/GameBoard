@@ -4,37 +4,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="background.css" rel="stylesheet">
-    <link href="links.css" rel="stylesheet">
     <link href="tables.css" rel="stylesheet">
     <link href="skyward.css" rel="stylesheet">
-    <link href="twilight.css" rel="stylesheet">
     <link rel="icon" href="zeldasky.png" type="image/png" sizes="16x16">
 </head>
 <style>
     a {
-        border-style: groove;
-        border-color: black;
         padding: 10px;
         color: aqua;
+        text-decoration: none;
     }
     a:hover {
-        text-shadow: 2px 2px 5px blue;
+        text-shadow: 1px 1px 10px blue;
     }
     table, th, td {
         color: aqua;
+    }
+    .neon {
+        color: aqua;
+        text-shadow: 1px 1px 10px rgb(22, 172, 231);
     }
 </style>
 <body>
     <div class="transbox">
         <table>
             <tr>
-                <th>Skyward Sword<br>100pts</th>
+                <th class="neon" style="border-bottom:1px solid aqua">Skyward Sword<br>100pts</th>
             </tr>
             <tr>
-                <td style="padding:60px;">Link's Loftwing is blue<br><img src="https://www.zeldadungeon.net/wp-content/uploads/2013/09/Loftwing.png" width="150px" height="150px"></td>
+                <td style="padding:60px;" class="neon">Link's Loftwing is blue</td>
             </tr>
             <tr>
-                <td><a href="wrong.html">TRUE</a><a href="correct.html">FALSE</a></td>
+                <td class="neon" style="border-top:1px solid aqua"><a href="wrong.html">TRUE</a><a href="correct.html">FALSE</a></td>
             </tr>
         </table>
     </div>

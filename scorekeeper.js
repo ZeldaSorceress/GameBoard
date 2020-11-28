@@ -1,9 +1,11 @@
-let score = 0;
-function addScore(number){
+// Connection to a broadcast channel
+const bc = new BroadcastChannel('test_channel');
 
-    score += number;
-}
+// Example of sending of a very simple message
+bc.postMessage('This is a test message.');
 
-function getScore(){
-    return score;
-}
+// A handler that only logs the event to the console:
+bc.onmessage = function (ev) { console.log(ev); }
+
+// Disconnect the channel
+bc.close();
