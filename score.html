@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Scorekeeper || BETA RELEASE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="background.css" rel="stylesheet">
+    <link href="tables.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
+    <link rel="icon" href="triforce.png" type="image/png" sizes="16x16">
+</head>
+<style>
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    .display {
+        margin: 100px;
+    }
+    button {
+        background-color: black;
+        outline: none;
+        border-color: lime;
+        border-radius: 10px;
+        border-style: solid;
+        color: limegreen;
+        text-shadow: 1px 1px 10px lime;
+        box-shadow: 1px 1px 10px lime;
+        font-size: 14px;
+        font-family: 'Press Start 2P', cursive;
+        width: 250px;
+        padding: 10px;
+    }
+    button:hover {
+        cursor: pointer;
+    }
+    .score {
+        color: aqua;
+        text-shadow: 1px 1px 10px aqua;
+    }
+</style>
+<body>
+<!---NavBar--->
+    <section class="navbar">
+        <a href="settings.html" id="setting">SETTINGS</a>
+        <a href="start.html" id="scorekeep">START MENU</a>
+    </section>
+<!---End NavBar--->
+<!---Score Display--->
+    <section class="display">
+        <p id="score" class="score"></p>
+    </section>
+    <button id="addgoal">ADD SCORE</button>
+    <button id="subgoal">SUBTRACT SCORE</button>
+<!---End Score Display--->
+<!---Script--->
+    <script src="scorekeeper.js"></script>
+<!---End Script--->
+</body>
+</html>
