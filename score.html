@@ -20,12 +20,11 @@
     button {
         background-color: black;
         outline: none;
-        border-color: lime;
+        border: 3px solid lime;
         border-radius: 10px;
-        border-style: solid;
         color: limegreen;
-        text-shadow: 1px 1px 10px lime;
-        box-shadow: 1px 1px 10px lime;
+        text-shadow: 1px 1px 50px lime;
+        box-shadow: 1px 1px 30px lime;
         font-size: 14px;
         font-family: 'Press Start 2P', cursive;
         width: 250px;
@@ -33,10 +32,17 @@
     }
     button:hover {
         cursor: pointer;
+        box-shadow: 1px 1px 50px green;
     }
     .score {
         color: aqua;
-        text-shadow: 1px 1px 10px aqua;
+        text-shadow: 1px 1px 50px aqua;
+    }
+    .footer {
+        padding: 10px;
+        color: blue;
+        text-shadow: 1px 1px 50px blue;
+        margin: 200px;
     }
 </style>
 <body>
@@ -52,6 +58,11 @@
     </section>
     <button id="addgoal">ADD SCORE</button>
     <button id="subgoal">SUBTRACT SCORE</button>
+    <br>
+    <br>
+    <footer>
+        <p class="footer">Please keep this tab open to keep track of your score</p>
+    </footer>
 <!---End Score Display--->
 <!---Script--->
     <script src="scorekeeper.js"></script>

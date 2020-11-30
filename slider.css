@@ -5,7 +5,8 @@
     -webkit-appearance: none;
     height: 25px;
     background: darkgray;
-    box-shadow: 1px 1px 10px white;
+    box-shadow: 1px 1px 10px darkgray;
+    border-radius: 20px;
     outline: none;
     opacity: 0.7;
     -webkit-transition: .2s;
@@ -19,7 +20,9 @@
     appearance: none;
     width: 25px;
     height: 25px;
-    background: yellow;
+    border-radius: 20px;
+    background: darkslategray;
+    text-shadow: 1px 1px 50px darkslategray;
     cursor: pointer;
 }
 .slider::-moz-range-thumb {

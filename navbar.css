@@ -5,7 +5,7 @@
 }
 #setting {
     color: orange;
-    text-shadow: 1px 1px 10px orange;
+    text-shadow: 1px 1px 50px orange;
     border-right: 3px solid orange;
     border-left: 3px solid orange;
     border-radius: 10px;
@@ -20,8 +20,8 @@
     border-radius: 10px;
     padding: 5px;
     color: blueviolet;
-    text-shadow: 1px 1px 10px blueviolet;
+    text-shadow: 1px 1px 50px blueviolet;
 }
 #scorekeep:hover {
-    text-shadow: 1px 1px 10px purple;
+    text-shadow: 1px 1px 50px purple;
 }
