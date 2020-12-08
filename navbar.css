@@ -19,3 +19,11 @@
 #scorekeep:hover {
     text-shadow: 1px 1px 50px purple;
 }
+#profile {
+    color: lime;
+    padding: 5px;
+    text-shadow: 1px 1px 50px lime;
+}
+#profile:hover {
+    text-shadow: 1px 1px 50px green;
+}
