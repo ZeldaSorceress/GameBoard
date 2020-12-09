@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>Start Menu || BETA RELEASE</title>
+    <title>Start Menu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="background.css" rel="stylesheet">
@@ -10,12 +10,14 @@
     <link href="twilight.css" rel="stylesheet">
     <link href="calamity.css" rel="stylesheet">
     <link href="navbar.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
     <link rel="icon" href="triforce.png" type="image/png" sizes="16x16">
 </head>
 <style>
     html,body {
         background-color: black;
         color: white;
+        background-image: url("https://i.pinimg.com/originals/29/bb/8b/29bb8bd889a97edf120a11c39f85c284.jpg");
     }
     p {
         font-size: 14px;
@@ -24,18 +26,19 @@
         text-decoration: none;
         color: white;
     }
-    .footer {
+    .pglow {
         text-shadow: 1px 1px 50px white;
-        cursor: default;
     }
 </style>
 <body>
 <!---NavBar--->
-    <section class="navbar">
-        <a href="settings.html" id="setting">SETTINGS</a>
-        <a href="score.html" target="_blank" id="scorekeep">SCOREKEEPER</a>
-        <a href="https://github.com/ZeldaSorceress" id="profile">PROFILE</a>
-    </section>
+    <center>
+        <section class="navbar">
+            <a href="settings.html" id="setting">SETTINGS</a>
+            <a href="score.html" target="_blank" id="scorekeep">SCOREKEEPER</a>
+            <a href="https://github.com/ZeldaSorceress" id="profile">PROFILE</a>
+        </section>
+    </center>
 <!---End NavBar--->
 <!---GameBoard--->
     <div class="transbox">
@@ -76,9 +79,11 @@
     <br>
     <br>
     <footer class="footer">
-        <p>@Nintendo copyright</p>
-        <br>
-        <p>Thank you for downloading my<br> Zelda Jeopardy game!! :D</p>
+        <section class="pglow">
+            <p>@Nintendo copyright</p>
+            <br>
+            <p>Thank you for downloading my<br> Zelda Jeopardy game!! :D</p>
+        </section>
     </footer>
     <br>
 <!---End GameBoard--->

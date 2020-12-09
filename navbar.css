@@ -1,7 +1,17 @@
 .navbar {
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     color: white;
+    background-color: darkslategray;
+    background-image: url("https://i.pinimg.com/originals/29/bb/8b/29bb8bd889a97edf120a11c39f85c284.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    width: 500px;
+}
+.navbar:hover {
+    opacity: 1;
 }
 #setting {
     color: orange;

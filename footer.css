@@ -1,0 +1,14 @@
+.footer {
+    text-shadow: 1px 1px 50px white;
+    box-shadow: 1px 1px 50px darkslategray;
+    cursor: default;
+    background-color: darkslategray;
+    padding: 10px;
+    margin: auto;
+    width: 500px;
+    border-radius: 20px;
+    background-image: url("https://i.pinimg.com/originals/29/bb/8b/29bb8bd889a97edf120a11c39f85c284.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
