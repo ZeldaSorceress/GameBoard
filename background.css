@@ -1,9 +1,8 @@
 html,body {
     margin: auto;
     text-align: center;
-    background-image: url("");
     background-position: center;
-    background-color: black;
+    background-color: #262626;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
@@ -11,31 +10,22 @@ html,body {
     outline: none;
     color: white;
 }
-div.transbox {
-    margin: 25px;
-    background-color: black;
-    opacity: 0.9;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px black;
-    text-align: center;
-    color: white;
-    margin-top: 100px;
-}
+
 /* width */
 ::-webkit-scrollbar {
     width: 100%;
 }
 /* Track */
 ::-webkit-scrollbar-track {
-    background: black;
+    background: darkslategray;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: black; 
+    background: darkslategray; 
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: yellow;
-    box-shadow: 1px 1px 10px yellow;
+    background: #262626;
+    box-shadow: 1px 1px 10px #262626;
     border-radius: 10px;
 }

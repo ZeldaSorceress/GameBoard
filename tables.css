@@ -1,6 +1,7 @@
 table {
     width: 100%;
     color: white;
+    margin-top: 100px;
 }
 th {
     padding: 20px;
@@ -15,9 +16,11 @@ td {
     border-radius: 10px;
     text-align: center;
     color: white;
+    opacity: 0.5;
 }
 td:hover {
     cursor: pointer;
+    opacity: 1;
 }
 th:hover {
     cursor: not-allowed;

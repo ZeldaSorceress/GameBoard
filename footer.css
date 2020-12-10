@@ -5,10 +5,14 @@
     background-color: darkslategray;
     padding: 10px;
     margin: auto;
-    width: 500px;
-    border-radius: 20px;
-    background-image: url("https://i.pinimg.com/originals/29/bb/8b/29bb8bd889a97edf120a11c39f85c284.jpg");
-    background-position: center;
-    background-size: auto;
-    background-repeat: no-repeat;
+    width: 100%;
+    opacity: 0.3;
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    color: white;
+}
+.footer:hover {
+    opacity: 1;
 }
