@@ -1,0 +1,21 @@
+button {
+    background-color: #3b3a3a;
+    outline: none;
+    border: 2px solid lime;
+    border-radius: 10px;
+    color: limegreen;
+    text-shadow: 1px 1px 10px lime;
+    box-shadow: 1px 1px 10px lime;
+    font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
+    width: 270px;
+    padding: 15px;
+}
+button:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 30px green;
+}
+.score {
+    color: aqua;
+    text-shadow: 1px 1px 50px aqua;
+}

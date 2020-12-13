@@ -2,7 +2,7 @@ html,body {
     margin: auto;
     text-align: center;
     background-position: center;
-    background-color: #262626;
+    background-color: #3b3a3a;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: auto;
@@ -17,15 +17,15 @@ html,body {
 }
 /* Track */
 ::-webkit-scrollbar-track {
-    background: darkslategray;
+    background: #262626;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: darkslategray; 
+    background: #262626; 
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #262626;
+    background: #3b3b3b;
     box-shadow: 1px 1px 10px #262626;
     border-radius: 10px;
 }

@@ -10,6 +10,9 @@
     <link href="CSS/twilight.css" rel="stylesheet">
     <link href="CSS/calamity.css" rel="stylesheet">
     <link href="CSS/navbar.css" rel="stylesheet">
+    <link href="CSS/footer.css" rel="stylesheet">
+    <link href="CSS/score.css" rel="stylesheet">
+    <link href="CSS/buttonglow.css" rel="stylesheet">
     <link rel="icon" href="RES/triforce.png" type="image/png" sizes="16x16">
 </head>
 <style>
@@ -20,32 +23,17 @@
     .display {
         margin: 100px;
     }
-    button {
-        background-color: black;
-        outline: none;
-        border: 3px solid lime;
-        border-radius: 10px;
-        color: limegreen;
-        text-shadow: 1px 1px 50px lime;
-        box-shadow: 1px 1px 30px lime;
-        font-size: 14px;
-        font-family: 'Press Start 2P', cursive;
-        width: 250px;
+    div.transbox {
+        opacity: 0.5;
+        background-color: #262626;
         padding: 10px;
-    }
-    button:hover {
-        cursor: pointer;
-        box-shadow: 1px 1px 50px green;
-    }
-    .score {
-        color: aqua;
-        text-shadow: 1px 1px 50px aqua;
-    }
-    .footer {
-        padding: 10px;
+        margin-top: 200px;
+        width: 600px;
+        text-align: center;
         color: blue;
-        text-shadow: 1px 1px 50px blue;
-        margin: 200px;
+        text-shadow: 1px 1px 10px blue;
+        border-style: outset;
+        border-color: darkslategray;
     }
 </style>
 <body>
@@ -58,13 +46,15 @@
     <section class="display">
         <p id="score" class="score"></p>
     </section>
-    <button id="addgoal">ADD SCORE</button>
-    <button id="subgoal">SUBTRACT SCORE</button>
-    <br>
-    <br>
-    <footer>
-        <p class="footer">Please keep this tab open to keep track of your score</p>
-    </footer>
+    <button id="addgoal" class="glow-on-hover" type="button">ADD</button>
+    <button id="subgoal" class="glow-on-hover" type="button">SUBTRACT</button>
+        <footer>
+            <center>
+            <div class="transbox">
+                <p>Please keep this tab open to <br>keep track of your score</p>
+            </div>
+            </center>
+        </footer>
 <!---End Score Display--->
 <!---Script--->
     <script src="JS/scorekeeper.js"></script>

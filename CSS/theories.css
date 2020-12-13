@@ -1,0 +1,7 @@
+.theoryselect {
+    color: fuchsia;
+    text-shadow: 1px 1px 50px fuchsia;
+}
+.theoryselect:hover {
+    text-shadow: 1px 1px 50px darkorchid;
+}

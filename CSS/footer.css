@@ -1,18 +1,6 @@
-.footer {
-    text-shadow: 1px 1px 50px white;
-    box-shadow: 1px 1px 50px darkslategray;
-    cursor: default;
-    background-color: darkslategray;
+div.transbox {
+    opacity: 0.6;
+    background-color: #262626;
     padding: 10px;
-    margin: auto;
-    width: 100%;
-    opacity: 0.3;
-    position: fixed;
-    text-align: center;
-    left: 0;
-    bottom: 0;
-    color: white;
-}
-.footer:hover {
-    opacity: 1;
+    border-top: 3px outset #262626;
 }
