@@ -13,6 +13,9 @@
     <link rel="icon" href="purplelinktp.jpg" type="image/png" sizes="16x16">
 </head>
 <style>
+    html,body {
+        background-image: linear-gradient(rgb(200,212,91), black, black);
+    }
     a {
         color: rgb(200, 212, 91);
         border-style: none;
@@ -25,15 +28,20 @@
     table, th, td {
         color: rgb(200, 212, 91);
     }
+    #questionimage {
+        background-image: url("https://static.wikia.nocookie.net/zelda_gamepedia_en/images/c/c3/TP_White_Logo.png/revision/latest/scale-to-width-down/300?cb=20170127100605");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 </style>
 <body>
-    <div class="transbox">
+    <div class="">
         <table>
             <tr>
                 <th class="twilightselect" style="border-bottom:1px solid rgb(200, 212, 91)">Twilight Princess<br>200pts</th>
             </tr>
             <tr>
-                <td style="padding:60px;" class="twilightselect">How many goats Link have to <br>herd in the beginning?</td>
+                <td style="padding:150px;" class="twilightselect" id="questionimage">How many goats Link have to <br>herd in the beginning?</td>
             </tr>
             <tr>
                 <td style="border-top:1px solid rgb(200, 212, 91)"><a href="wrong.html" class="twilightselect">5</a><a href="correct.html" class="twilightselect">10</a><a href="wrong.html" class="twilightselect">15</a><a href="wrong.html" class="twilightselect">20</a></td>

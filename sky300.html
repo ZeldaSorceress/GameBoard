@@ -28,15 +28,23 @@
         color: aqua;
         text-shadow: 1px 1px 50px rgb(22, 172, 231);
     }
+    html,body {
+        background-image: linear-gradient(aqua, black, black);
+    }
+    #questionimage {
+        background-image: url("https://static.wikia.nocookie.net/zelda_gamepedia_en/images/6/62/SS_Logo.png/revision/latest/scale-to-width-down/300?cb=20180810191429");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 </style>
 <body>
-    <div class="transbox">
+    <div class="">
         <table>
             <tr>
                 <th class="neon" style="border-bottom:1px solid aqua">Skyward Sword<br>300pts</th>
             </tr>
             <tr>
-                <td style="padding:60px;" class="neon">Who is the reincarnation <br>of Goddess Hylia?</td>
+                <td style="padding:150px;cursor:not-allowed" class="neon" id="questionimage">Who is the reincarnation <br>of Goddess Hylia?</td>
             </tr>
             <tr>
                 <td class="neon" style="border-top:1px solid aqua"><a href="wrong.html">A. Impa</a><br><a href="wrong.html">B. Groose</a><br><a href="correct.html">C. Zelda</a></td>

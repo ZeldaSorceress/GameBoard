@@ -28,16 +28,24 @@
         color: aqua;
         text-shadow: 1px 1px 50px rgb(22, 172, 231);
     }
+    html,body {
+        background-image: linear-gradient(aqua, black, black);
+    }
+    #questionimage {
+        background-image: url("https://static.wikia.nocookie.net/zelda_gamepedia_en/images/6/62/SS_Logo.png/revision/latest/scale-to-width-down/300?cb=20180810191429");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 </style>
 <body>
-    <div class="transbox">
+    <div class="">
         <section class="neon">
             <table class="neon">
                 <tr>
                     <th class="neon" style="border-bottom:1px solid aqua">Skyward Sword<br>200pts</th>
                 </tr>
                 <tr>
-                    <td style="padding:60px;" class="neon">What is the first <br>area you go to?</td>
+                    <td style="padding:150px;cursor:not-allowed" class="neon" id="questionimage">What is the first <br>area you go to?</td>
                 </tr>
                 <tr>
                     <td class="neon" style="border-top:1px solid aqua"><a href="correct.html">A. Faron</a><br><a href="wrong.html">B. Eldin</a><br><a href="wrong.html">C. Lanayru</a></td>
