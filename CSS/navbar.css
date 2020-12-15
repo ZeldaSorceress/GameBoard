@@ -38,18 +38,9 @@ div.transbox {
 #profile:hover {
     text-shadow: 1px 1px 50px green;
 }
-.sidenav {
-    background-color: darkslategray;
-    padding: 10px;
-    width: 200px;
-    height: 700px;
-}
 .table {
     margin-top: -720px;
     margin-left: 200px;
-}
-.copyright {
-    margin-top: 560px;
 }
 #update {
     color: orange;
