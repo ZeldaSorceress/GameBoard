@@ -1,0 +1,39 @@
+.intros {
+    background-color: black;
+    font-size: 18px;
+    padding: 5px;
+}
+.firstul {
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.6;
+    color: rgb(200, 212, 91);
+    text-shadow: 1px 1px 50px rgb(200, 212, 91);
+}
+.firstul:hover {
+    opacity: 1;
+    text-shadow: 1px 1px 50px darkolivegreen;
+}
+.secondul {
+    font-size: 18px;
+    color: aqua;
+    text-align: center;
+    opacity: 0.6;
+    text-shadow: 1px 1px 50px aqua;
+}
+.secondul:hover {
+    opacity: 1;
+}
+.thirdul {
+    font-size: 18px;
+    color: rgb(189, 10, 64);
+    text-align: center;
+    opacity: 0.6;
+    text-shadow: 1px 1px 50px rgb(189, 10, 64);
+}
+.thirdul:hover {
+    opacity: 1;
+}
+li {
+    font-size: 14px;
+}

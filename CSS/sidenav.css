@@ -12,6 +12,9 @@
     background-color: #262626;
     overflow-x: hidden;
     padding-top: 20px;
+    border-color: black;
+    border-style: 2px solid;
+    box-shadow: 1px 1px 50px black;
 }
 .sidenav a {
     padding: 6px 8px 6px 16px;
@@ -24,8 +27,9 @@
     color: #f1f1f1;
 }
 .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
+    margin-left: 160px;
+    margin-top: 100px;
+    font-size: 28px; 
     padding: 0px 10px;
 }
 h3 {
@@ -37,5 +41,8 @@ h3 {
     text-shadow: 1px 1px 50px gold;
 }
 hr.new1 {
-    border: 1px solid #363636;
+    border: 1px solid black;
+}
+hr.new2 {
+    border:2px solid #262626;
 }

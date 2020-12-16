@@ -5,3 +5,10 @@
 .calamityselect:hover {
     text-shadow: 1px 1px 50px darkred;
 }
+#calamity {
+    color: rgb(189, 10, 64);
+    text-shadow: 1px 1px 50px rgb(189, 10, 64);
+}
+#calamity:hover {
+    text-shadow: 1px 1px 50px darkred;
+}

@@ -14,9 +14,17 @@
     <link href="CSS/theories.css" rel="stylesheet">
     <link href="CSS/buttonglow.css" rel="stylesheet">
     <link href="CSS/sidenav.css" rel="stylesheet">
+    <link href="CSS/gameinfo.css" rel="stylesheet">
     <link rel="icon" href="RES/triforce.png" type="image/png" sizes="16x16">
 </head>
 <style>
+    html,body {
+        background-image: url("https://cutewallpaper.org/21/space-backgounds/Top-20-HD-Space-Backgrounds-Wallpapers-HD-Wallpapers-Plus.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-repeat: unset;
+    }
     p {
         font-size: 14px;
     }
@@ -24,82 +32,141 @@
         text-decoration: none;
         color: white;
     }
+    td {
+        background-image: url("RES/neonborder.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 225px;
+    }
+    th {
+        background-image: url("RES/neonborder.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 300px;
+    }
+    .sidenav {
+        background-image: url("RES/sidenav.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+    }
 </style>
 <body>
 <!---NavBar--->
         <div class="sidenav">
-            <h3>Zelda Jeopardy</h3>
-            <hr class="new1">
-            <br>
-            <br>
-            <a href="score.html" target="_blank" id="scorekeep">SCOREKEEPER</a>
-            <br>
-            <br>
-            <br>
-            <a href="https://github.com/ZeldaSorceress" id="profile">MY PROFILE</a>
-            <br>
-            <br>
-            <br> 
-            <a href="https://github.com/ZeldaSorceress/GameBoard" id="update">UPDATES</a>
-            <br>
-            <br>
-            <hr class="new1">
-            <p class="copyright">@Nintendo Copyright</p>
+            <div class="">
+                <h3>Zelda Jeopardy</h3>
+                <hr class="new1">
+                <br>
+                <br>
+                <a href="score.html" target="_blank" id="scorekeep">SCOREKEEPER</a>
+                <br>
+                <br>
+                <br>
+                <a href="https://github.com/ZeldaSorceress" id="profile">MY PROFILE</a>
+                <br>
+                <br>
+                <br> 
+                <a href="https://github.com/ZeldaSorceress/GameBoard" id="update">UPDATES</a>
+                <br>
+                <br>
+                <hr class="new1">
+                <br>
+                <br>
+                <p id="date"></p>
+                <br>
+                <br>
+                <hr class="new1">
+                <p class="copyright">@Nintendo Copyright</p>
+            </div>
         </div>
 <!---End NavBar--->
 <!---GameBoard--->
     <div class="main">
-    <center>
-    <table>
-        <tr>
-            <th class="twilightselect">Twilight Princess</th>
-            <th class="skywardselect">Skyward Sword</th>
-            <th class="calamityselect">Age of Calamity</th>
-            <th class="theoryselect">Zelda Theories</th>
-        </tr>
-        <tr>
-            <td><a href="tp100.html" class="twilightselect">100</a></td>
-            <td><a href="sky100.html" class="skywardselect">100</a></td>
-            <td><a href="calamity100.html" class="calamityselect">100</a></td>
-            <td><a href="theories100.html" class="theoryselect">100</a></td>
-        </tr>
-        <tr>
-            <td><a href="tp200.html" class="twilightselect">200</a></td>
-            <td><a href="sky200.html" class="skywardselect">200</a></td>
-            <td><a href="calamity200.html" class="calamityselect">200</a></td>
-            <td><a href="theories200.html" class="theoryselect">200</a></td>
-        </tr>
-        <tr>
-            <td><a href="tp300.html" class="twilightselect">300</a></td>
-            <td><a href="sky300.html" class="skywardselect">300</a></td>
-            <td><a href="calamity300.html" class="calamityselect">300</a></td>
-            <td><a href="theories300.html" class="theoryselect">300</a></td>
-        </tr>
-        <tr>
-            <td><a href="tp400.html" class="twilightselect">400</a></td>
-            <td><a href="sky400.html" class="skywardselect">400</a></td>
-            <td><a href="calamity400.html" class="calamityselect">400</a></td>
-            <td><a href="theories400.html" class="theoryselect">400</a></td>
-        </tr>
-        <tr>
-            <td><a href="tp500.html" class="twilightselect">500</a></td>
-            <td><a href="sky500.html" class="skywardselect">500</a></td>
-            <td><a href="calamity500.html" class="calamityselect">500</a></td>
-            <td><a href="theories500.html" class="theoryselect">500</a></td>
-        </tr>
-    </table>
-    </center>
+        <section id="main">
+            <center>
+                <table>
+                    <tr>
+                        <th class="twilightselect">Twilight Princess</th>
+                        <th class="skywardselect">Skyward Sword</th>
+                        <th class="calamityselect">Age of Calamity</th>
+                        <th class="theoryselect">Zelda Theories</th>
+                    </tr>
+                    <tr>
+                        <td><a href="tp100.html" class="twilightselect">100</a></td>
+                        <td><a href="sky100.html" class="skywardselect">100</a></td>
+                        <td><a href="calamity100.html" class="calamityselect">100</a></td>
+                        <td><a href="theories100.html" class="theoryselect">100</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="tp200.html" class="twilightselect">200</a></td>
+                        <td><a href="sky200.html" class="skywardselect">200</a></td>
+                        <td><a href="calamity200.html" class="calamityselect">200</a></td>
+                        <td><a href="theories200.html" class="theoryselect">200</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="tp300.html" class="twilightselect">300</a></td>
+                        <td><a href="sky300.html" class="skywardselect">300</a></td>
+                        <td><a href="calamity300.html" class="calamityselect">300</a></td>
+                        <td><a href="theories300.html" class="theoryselect">300</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="tp400.html" class="twilightselect">400</a></td>
+                        <td><a href="sky400.html" class="skywardselect">400</a></td>
+                        <td><a href="calamity400.html" class="calamityselect">400</a></td>
+                        <td><a href="theories400.html" class="theoryselect">400</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="tp500.html" class="twilightselect">500</a></td>
+                        <td><a href="sky500.html" class="skywardselect">500</a></td>
+                        <td><a href="calamity500.html" class="calamityselect">500</a></td>
+                        <td><a href="theories500.html" class="theoryselect">500</a></td>
+                    </tr>
+                </table>
+            </center>
+        </section>
+        <br>
+        <br>
+        <br>
+<!---Game Info--->
+        <section class="intros">
+            <ul class="firstul">Twilight Princess
+                <br>
+                <br>
+                <p><strong>Story Introduction: </strong>Link, a young adult, is a ranch worker in Ordon Village in the Ordona Province of Hyrule. His mentor Rusl asks him to present a gift to the Royal Family of Hyrule in his stead.</p>
+                <br>
+                <p><strong>Game Introduction: </strong>The game is meant to have a more mature atmosphere than the rest of the Zelda games, as well as significantly darker, and more rabid versions of monsters from older Zelda games. It is also supposed to be the longest Zelda game to date, accumulating at least sixty hours of play, twice as long as Ocarina of Time, confirmed by Iwata, although many who completed the game believed this to be inaccurate. Princess Zelda and Ganon also appear in Twilight Princess.</p>
+                <br>
+                <p><strong>US Release Date: </strong>November 19, 2006</p>
+            </ul>
+            <hr class="new2">
+            <ul class="secondul">Skyward Sword
+                <br>
+                <br>
+                <p><strong>Story Introduction: </strong>Hylia joined the land dwellers and fought the evil forces in a war of unmatched scale and ferocity. Hylia eventually sealed the evil forces away, restoring peace to the Surface. However, the humans remained in Skyloft, as Hylia knew that the seal on the evil would not hold forever. Hylia knew that she would be powerless to stop the forces for a second time, so she required the use of the Triforce to defeat them again. However, a goddess cannot use the Triforce, so Hylia gave up her immortality and was reincarnated as a mortal Hylian</p>
+                <br>
+                <p><strong>Game Introduction: </strong>It is the first The Legend of Zelda game created specifically with the Wii in mind, and requires Wii Motion Plus</p>
+                <br>
+                <p><strong>US Release Date: </strong>November 20, 2011</p>
+            </ul>
+            <hr class="new2">
+            <ul class="thirdul">Age of Calamity
+                <br>
+                <br>
+                <p><strong>Story Introduction: </strong>At about the same time Zelda's powers awakened in the events of Breath of the Wild, a small Guardian, named Terrako, emerges from a box in Hyrule Castle. As it sees the destruction caused by Calamity Ganon, it opens a Gate of Time to travel back before the Great Calamity. Before it jumps into the gate, a Guardian Stalker attacks it, but the small Guardian manages to make it into the gate. Unknown to it, a part of Calamity Ganon's Malice also made its way through the Gate of Time, following the small Guardian.</p>
+                <br>
+                <p><strong>Game Introduction: </strong>Hyrule Warriors: Age of Calamity is a spin-off game of The Legend of Zelda series. It takes place in the world of Breath of the Wild in a different timeline during the second Great Calamity</p>
+                <br>
+                <p><strong>US Release Date: </strong>November 20, 2020</p>
+            </ul>
+        </section>
+<!---End Game Info--->
+    </div> 
     <br>
     <br>
     <br>
-    <footer>
-        <div class="">
-            <p id="date"></p>
-        </div>
-    </footer>
     <br>
 <!---End GameBoard--->
 <script src="JS/date.js"></script>
-<script src="JS/sound.js"></script>
 </body>
 </html>

@@ -5,3 +5,10 @@
 .skywardselect:hover { 
     text-shadow: 1px 1px 50px darkcyan;
 }
+#skyward {
+    color: aqua;
+    text-shadow: 1px 1px 50px aqua;
+}
+#skyward:hover {
+    text-shadow: 1px 1px 50px darkcyan;
+}
