@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="eng">
+<head>
+    <title>2.0 Update Countdown</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="CSS/background.css" rel="stylesheet">
+    <link href="CSS/navbar.css" rel="stylesheet">
+    <link href="CSS/sidenav.css" rel="stylesheet">
+    <link rel="icon" href="RES/triforce.png" type="image/png" sizes="16x16">
+</head>
+<style>
+    html,body {
+        background-image: url("https://cutewallpaper.org/21/space-backgounds/Top-20-HD-Space-Backgrounds-Wallpapers-HD-Wallpapers-Plus.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-repeat: unset;
+    }
+    .p {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 100px;
+        color: white;
+    }
+    div.update {
+        background-color: black;
+        opacity: 0.7;
+        padding: 10px;
+        margin-top: 250px;
+        text-shadow: 1px 1px 50px white;
+        text-align: center;
+        background-position: center;
+    }
+    .sidenav {
+        background-image: url("RES/sidenav.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+    }
+</style>
+<body>
+<!---NavBar--->
+    <div class="sidenav">
+        <div class="">
+            <h3>Zelda Jeopardy</h3>
+            <hr class="new1">
+            <br>
+            <br>
+            <a href="score.html" id="scorekeep">SCOREKEEPER</a>
+            <br>
+            <br>
+            <br>
+            <a href="https://github.com/ZeldaSorceress" id="profile">MY PROFILE</a>
+            <br>
+            <br>
+            <br> 
+            <a href="https://github.com/ZeldaSorceress/GameBoard" id="update">UPDATES</a>
+            <br>
+            <br>
+            <a href="start.html" id="twoupdate">START MENU</a>
+            <br>
+            <br>
+            <hr class="new1">
+            <br>
+            <br>
+            <p id="date"></p>
+            <br>
+            <br>
+            <hr class="new1">
+            <p class="copyright">@Nintendo Copyright</p>
+        </div>
+    </div>
+<!---End NavBar--->
+<!---Countdown--->
+    <div class="update">
+        <div class="main">
+            <center>
+                <h4>2.0 Update Release</h4>
+                <h5>January 15th, 2021</h5>
+                <p id="demo" class="p"></p>
+            </center>
+        </div>
+    </div>
+<!---End Countdown--->
+</body>
+<script src="JS/countdown.js"></script>
+<script src="JS/date.js"></script>
+</html>

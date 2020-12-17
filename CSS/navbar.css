@@ -26,17 +26,21 @@ div.transbox {
     padding: 5px;
     color: blueviolet;
     text-shadow: 1px 1px 50px blueviolet;
+    opacity: 0.6;
 }
 #scorekeep:hover {
     text-shadow: 1px 1px 50px purple;
+    opacity: 1;
 }
 #profile {
     color: lime;
     padding: 5px;
     text-shadow: 1px 1px 50px lime;
+    opacity: 0.6;
 }
 #profile:hover {
     text-shadow: 1px 1px 50px green;
+    opacity: 1;
 }
 .table {
     margin-top: -720px;
@@ -45,7 +49,18 @@ div.transbox {
 #update {
     color: orange;
     text-shadow: 1px 1px 50px orange;
+    opacity: 0.6;
 }
 #update:hover {
     text-shadow: 1px 1px 50px rgb(163, 92, 6);
+    opacity: 1;
+}
+#twoupdate {
+    color: red;
+    text-shadow: 1px 1px 50px red;
+    opacity: 0.6;
+}
+#twoupdate:hover {
+    text-shadow: 1px 1px 50px darkred;
+    opacity: 1;
 }
