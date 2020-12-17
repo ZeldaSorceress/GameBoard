@@ -3,19 +3,23 @@ button {
     outline: none;
     border: 2px solid lime;
     border-radius: 10px;
-    color: limegreen;
-    text-shadow: 1px 1px 10px lime;
-    box-shadow: 1px 1px 10px lime;
     font-size: 14px;
     font-family: 'Press Start 2P', cursive;
     width: 270px;
     padding: 15px;
+    text-shadow: 1px 1px 50px aqua;
 }
 button:hover {
     cursor: pointer;
-    box-shadow: 1px 1px 30px green;
 }
 .score {
     color: aqua;
     text-shadow: 1px 1px 50px aqua;
+    background-color: black;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 50px black;
+    background-position: center;
+    opacity: 0.6;
 }

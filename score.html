@@ -13,9 +13,17 @@
     <link href="CSS/footer.css" rel="stylesheet">
     <link href="CSS/score.css" rel="stylesheet">
     <link href="CSS/buttonglow.css" rel="stylesheet">
+    <link href="CSS/sidenav.css" rel="stylesheet">
     <link rel="icon" href="RES/triforce.png" type="image/png" sizes="16x16">
 </head>
 <style>
+    html,body {
+        background-image: url("https://cutewallpaper.org/21/space-backgounds/Top-20-HD-Space-Backgrounds-Wallpapers-HD-Wallpapers-Plus.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-repeat: unset;
+    }
     a {
         text-decoration: none;
         color: white;
@@ -24,27 +32,57 @@
         margin: 100px;
     }
     div.transbox {
-        opacity: 0.5;
-        background-color: #262626;
+        opacity: 0.6;
+        background-color: black;
         padding: 10px;
         margin-top: 200px;
         width: 600px;
         text-align: center;
         color: blue;
-        text-shadow: 1px 1px 10px blue;
-        border-style: outset;
-        border-color: darkslategray;
+        text-shadow: 1px 1px 50px blue;
+    }
+    .sidenav {
+        background-image: url("RES/sidenav.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
     }
 </style>
 <body>
 <!---NavBar--->
-    <section class="navbar">
+<div class="sidenav">
+    <div class="">
+        <h3>Zelda Jeopardy</h3>
+        <hr class="new1">
+        <br>
+        <br>
         <a href="start.html" id="scorekeep">START MENU</a>
-    </section>
+        <br>
+        <br>
+        <br>
+        <a href="https://github.com/ZeldaSorceress" id="profile">MY PROFILE</a>
+        <br>
+        <br>
+        <br> 
+        <a href="https://github.com/ZeldaSorceress/GameBoard" id="update">UPDATES</a>
+        <br>
+        <br>
+        <hr class="new1">
+        <br>
+        <br>
+        <p id="date"></p>
+        <br>
+        <br>
+        <hr class="new1">
+        <p class="copyright">@Nintendo Copyright</p>
+    </div>
+</div>
 <!---End NavBar--->
 <!---Score Display--->
     <section class="display">
+        <center>
         <p id="score" class="score"></p>
+        </center>
     </section>
     <button id="addgoal" class="glow-on-hover" type="button">ADD</button>
     <button id="subgoal" class="glow-on-hover" type="button">SUBTRACT</button>
@@ -58,6 +96,7 @@
 <!---End Score Display--->
 <!---Script--->
     <script src="JS/scorekeeper.js"></script>
+    <script src="JS/date.js"></script>
 <!---End Script--->
 </body>
 </html>
