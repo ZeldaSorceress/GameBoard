@@ -4,7 +4,7 @@
 }
 .sidenav {
     height: 100%;
-    width: 200px;
+    width: 150px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -19,7 +19,7 @@
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 12px;
     color: #818181;
     display: block;
 }
@@ -39,6 +39,7 @@ h3 {
 .copyright {
     color: gold;
     text-shadow: 1px 1px 50px gold;
+    font-size: 12px;
 }
 hr.new1 {
     border: 1px solid black;

@@ -1,12 +1,3 @@
-.navbar {
-    text-align: center;
-    padding: 10px;
-    color: white;
-    background-color: #262626;
-    width: 100%;
-    border-style: outset;
-    border-color: darkslategray;
-}
 div.transbox {
     opacity: 0.6;
     background-color: #262626;
@@ -17,13 +8,11 @@ div.transbox {
 #setting {
     color: orange;
     text-shadow: 1px 1px 50px orange;
-    padding: 5px;
 }
 #setting:hover {
     text-shadow: 1px 1px 10px orangered;
 }
 #scorekeep {
-    padding: 5px;
     color: blueviolet;
     text-shadow: 1px 1px 50px blueviolet;
     opacity: 0.6;
@@ -34,7 +23,6 @@ div.transbox {
 }
 #profile {
     color: lime;
-    padding: 5px;
     text-shadow: 1px 1px 50px lime;
     opacity: 0.6;
 }
