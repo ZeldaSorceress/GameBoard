@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+    <title>Start Menu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="CSS/background.css" rel="stylesheet">
+    <link href="CSS/tables.css" rel="stylesheet">
+    <link href="CSS/navbar.css" rel="stylesheet">
+    <link href="CSS/footer.css" rel="stylesheet">
+    <link href="CSS/sidenav.css" rel="stylesheet">
+    <link href="CSS/audio.css" rel="stylesheet">
+    <link href="CSS/buttonglow.css" rel="stylesheet">
+    <link rel="icon" href="RES/triforce.png" type="image/png" sizes="16x16">
+</head>
+<style>
+    html,body {
+        background-image: url("https://cutewallpaper.org/21/space-backgounds/Top-20-HD-Space-Backgrounds-Wallpapers-HD-Wallpapers-Plus.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-repeat: unset;
+    }
+    .sidenav {
+        background-image: url("RES/sidenav.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+        font-size: 12px;
+    }
+    th {
+        background-image: url("RES/neonborder.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 300px;
+    }
+    button {
+        font-family: 'Press Start 2P', cursive;
+    }
+</style>
+<body>
+    <!---NavBar--->
+    <div class="sidenav">
+        <div class="">
+            <h3>Zelda Jeopardy</h3>
+            <hr class="new1">
+            <br>
+            <a href="score.html" target="_blank" id="scorekeep">SCOREKEEPER</a>
+            <br>
+            <a href="https://github.com/ZeldaSorceress" id="profile">MY PROFILE</a>
+            <br>
+            <a href="https://github.com/ZeldaSorceress/GameBoard" id="update">UPDATES</a>
+            <br>
+            <a href="update.html" id="twoupdate">2.0 Update</a>
+            <br>
+            <a href="start.html" id="music">START MENU</a>
+            <br>
+            <hr class="new1">
+            <br>
+            <br>
+            <p id="date" class="p"></p>
+            <br>
+            <br>
+            <hr class="new1">
+            <p class="copyright">@Nintendo Copyright</p>
+        </div>
+    </div>
+<!---End NavBar--->
+<!---MP3 Files--->
+    <div class="main">
+        <table>
+            <tr>
+                <th>Ocarina of Time</th>
+                <th>Skyward Sword</th>
+                <th>Zelda 1</th>
+                <th>Majora's Mask</th>
+            </tr>
+            <tr>
+                <td><button onclick="playpause()" class="glow-on-hover">Hyrule Field</button><audio id="hyrulefield" src="RES/hyrule field.mp3"></audio></td>
+                <td><button onclick="playpause()" class="glow-on-hover"></button><audio id="" src=""></audio></td>
+                <td><button onclick="playpause()" class="glow-on-hover"></button><audio id="" src=""></audio></td>
+                <td><button onclick="playpause()" class="glow-on-hover"></button><audio id="" src=""></audio></td>
+            </tr>
+            <tr>
+                <td><button onclick="pauseplay()" class="glow-on-hover">Saria's Song</button><audio id="saria" src="RES/Saria Song.mp3"></audio></td>
+                <td><button onclick="playpause()" class="glow-on-hover"></button><audio id="" src=""></audio></td>
+                <td><button onclick="playpause()" class="glow-on-hover"></button><audio id="" src=""></audio></td>
+                <td><button onclick="playpause()" class="glow-on-hover"></button><audio id="" src=""></audio></td>
+            </tr>
+            <tr>
+                <td><button onclick="zelda()" class="glow-on-hover">Zelda's Lullaby</button><audio id="zelda" src="RES/zeldas lullaby.mp3"></audio></td>
+                <td><button onclick="playpause()" class="glow-on-hover"></button><audio id="" src=""></audio></td>
+                <td><button onclick="playpause()" class="glow-on-hover"></button><audio id="" src=""></audio></td>
+                <td><button onclick="playpause()" class="glow-on-hover"></button><audio id="" src=""></audio></td>
+            </tr>
+        </table>
+    </div>
+<!---End MP3 Files--->
+<script src="JS/date.js"></script>
+<script src="JS/music.js"></script>
+</body>

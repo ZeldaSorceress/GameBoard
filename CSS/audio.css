@@ -1,0 +1,13 @@
+audio {
+    outline: none;
+    height: 30px;
+    width: 50px;
+}
+audio::-webkit-media-controls-panel {
+    background-color: darkslategray;
+    color: white;
+    text-shadow: 1px 1px 50px white;
+}
+audio::-webkit-media-controls-play-button {
+    color: white;
+}

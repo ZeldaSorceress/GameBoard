@@ -52,3 +52,12 @@ div.transbox {
     text-shadow: 1px 1px 50px darkred;
     opacity: 1;
 }
+#music {
+    color: magenta;
+    text-shadow: 1px 1px 50px magenta;
+    opacity: 0.6;
+}
+#music:hover {
+    text-shadow: 1px 1px 50px darkmagenta;
+    opacity: 1;
+}
