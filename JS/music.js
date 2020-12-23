@@ -165,3 +165,115 @@ function skyloft() {
         $('#play').removeClass('glyphicon-pause')
     }
   }
+
+  function epona() {
+    var audio = document.getElementById('epona');
+    if (audio.paused) {
+        audio.play();
+        $('#play').removeClass('glyphicon-play-circle')
+        $('#play').addClass('glyphicon-pause')
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+        $('#play').addClass('glyphicon-play-circle')
+        $('#play').removeClass('glyphicon-pause')
+    }
+  }
+
+  function lostwoods() {
+    var audio = document.getElementById('lostwoods');
+    if (audio.paused) {
+        audio.play();
+        $('#play').removeClass('glyphicon-play-circle')
+        $('#play').addClass('glyphicon-pause')
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+        $('#play').addClass('glyphicon-play-circle')
+        $('#play').removeClass('glyphicon-pause')
+    }
+  }
+
+  function water() {
+    var audio = document.getElementById('water');
+    if (audio.paused) {
+        audio.play();
+        $('#play').removeClass('glyphicon-play-circle')
+        $('#play').addClass('glyphicon-pause')
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+        $('#play').addClass('glyphicon-play-circle')
+        $('#play').removeClass('glyphicon-pause')
+    }
+  }
+
+  function skybazaar() {
+    var audio = document.getElementById('bazaar');
+    if (audio.paused) {
+        audio.play();
+        $('#play').removeClass('glyphicon-play-circle')
+        $('#play').addClass('glyphicon-pause')
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+        $('#play').addClass('glyphicon-play-circle')
+        $('#play').removeClass('glyphicon-pause')
+    }
+  }
+
+  function deathmountain() {
+    var audio = document.getElementById('mountain');
+    if (audio.paused) {
+        audio.play();
+        $('#play').removeClass('glyphicon-play-circle')
+        $('#play').addClass('glyphicon-pause')
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+        $('#play').addClass('glyphicon-play-circle')
+        $('#play').removeClass('glyphicon-pause')
+    }
+  }
+
+  function gameover() {
+    var audio = document.getElementById('gameover');
+    if (audio.paused) {
+        audio.play();
+        $('#play').removeClass('glyphicon-play-circle')
+        $('#play').addClass('glyphicon-pause')
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+        $('#play').addClass('glyphicon-play-circle')
+        $('#play').removeClass('glyphicon-pause')
+    }
+  }
+
+  function clocktown3() {
+    var audio = document.getElementById('clock3');
+    if (audio.paused) {
+        audio.play();
+        $('#play').removeClass('glyphicon-play-circle')
+        $('#play').addClass('glyphicon-pause')
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+        $('#play').addClass('glyphicon-play-circle')
+        $('#play').removeClass('glyphicon-pause')
+    }
+  }
+
+  function timesong() {
+    var audio = document.getElementById('time');
+    if (audio.paused) {
+        audio.play();
+        $('#play').removeClass('glyphicon-play-circle')
+        $('#play').addClass('glyphicon-pause')
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+        $('#play').addClass('glyphicon-play-circle')
+        $('#play').removeClass('glyphicon-pause')
+    }
+  }

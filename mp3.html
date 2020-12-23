@@ -33,9 +33,22 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: 300px;
+        font-size: 20px;
     }
     button {
         font-family: 'Press Start 2P', cursive;
+    }
+    a {
+        text-decoration: none;
+        font-size: 16px;
+        padding: 10px;
+        opacity: 0.6;
+    }
+    a:hover {
+        opacity: 1;
+    }
+    h3 {
+        text-shadow: 1px 1px 50px gold;
     }
 </style>
 <body>
@@ -85,7 +98,7 @@
                 <td><button onclick="pauseplay()" class="glow-on-hover">Saria's Song</button><audio id="saria" src="RES/Saria Song.mp3"></audio></td>
                 <td><button onclick="groose()" class="glow-on-hover">Groose's Theme</button><audio id="groose" src="RES/groose.mp3"></audio></td>
                 <td><button onclick="dungeon()" class="glow-on-hover">Dungeon Theme</button><audio id="dungeon" src="RES/dungeontheme.mp3"></audio></td>
-                <td><button onclick="clocktown()" class="glow-on-hover">Clock Town</button><audio id="clock" src="RES/clocktown.mp3"></audio></td>
+                <td><button onclick="clocktown()" class="glow-on-hover">Clock Town 1</button><audio id="clock" src="RES/clocktown.mp3"></audio></td>
             </tr>
             <tr>
                 <td><button onclick="zelda()" class="glow-on-hover">Zelda's Lullaby</button><audio id="zelda" src="RES/zeldas lullaby.mp3"></audio></td>
@@ -93,7 +106,61 @@
                 <td><button onclick="secret()" class="glow-on-hover">Secret Revealed</button><audio id="secret" src="RES/secret.mp3"></audio></td>
                 <td><button onclick="stormsong()" class="glow-on-hover">Song of Storms</button><audio id="storm" src="RES/stormsong.mp3"></audio></td>
             </tr>
+            <tr>
+                <td><button onclick="epona()" class="glow-on-hover">Epona's Song</button><audio id="epona" src="RES/epona.mp3"></audio></td>
+                <td><button onclick="water()" class="glow-on-hover">Water Spring</button><audio id="water" src="RES/water spring.mp3"></audio></td>
+                <td><button onclick="deathmountain()" class="glow-on-hover">Death Mountain</button><audio id="mountain" src="RES/death mountain.mp3"></audio></td>
+                <td><button onclick="clocktown3()" class="glow-on-hover">Clock Town 3</button><audio id="clock3" src="RES/clocktown3.mp3"></audio></td>
+            </tr>
+            <tr>
+                <td><button onclick="lostwoods()" class="glow-on-hover">Lost Woods</button><audio id="lostwoods" src="RES/lost woods.mp3"></audio></td>
+                <td><button onclick="skybazaar()" class="glow-on-hover">The Bazaar</button><audio id="bazaar" src="RES/bazaar.mp3"></audio></td>
+                <td><button onclick="gameover()" class="glow-on-hover">Game Over</button><audio id="gameover" src="RES/gameover.mp3"></audio></td>
+                <td><button onclick="timesong()" class="glow-on-hover">Song of Time</button><audio id="time" src="RES/song of time.mp3"></audio></td>
+            </tr>
         </table>
+        <br>
+        <br>
+        <table><h3>↓ Download Links ↓</h3>
+            <tr>
+                <th>Ocarina of Time</th>
+                <th>Skyward Sword</th>
+                <th>Zelda 1</th>
+                <th>Majora's Mask</th>
+            </tr>
+            <tr>
+                <td><a href="RES/hyrule field.mp3" type="button" target="_blank" class="glow-on-hover" download>Hyrule Field</a></td>
+                <td><a href="RES/skyloft.mp3" type="button" target="_blank" class="glow-on-hover" download>Skyloft Theme</a></td>
+                <td><a href="RES/introtheme.mp3" type="button" target="_blank" class="glow-on-hover" download>Intro Theme</a></td>
+                <td><a href="RES/songofhealing.mp3" type="button" target="_blank" class="glow-on-hover" download>Song of Healing</a></td>
+            </tr>
+            <tr>
+                <td><a href="RES/Saria Song.mp3" type="button" target="_blank" class="glow-on-hover" download>Saria's Song</a></td>
+                <td><a href="RES/groose.mp3" type="button" target="_blank" class="glow-on-hover" download>Groose's Theme</a></td>
+                <td><a href="RES/dungeontheme.mp3" type="button" target="_blank" class="glow-on-hover" download>Dungeon Theme</a></td>
+                <td><a href="RES/clocktown.mp3" type="button" target="_blank" class="glow-on-hover" download>Clock Town 1</a></td>
+            </tr>
+            <tr>
+                <td><a href="RES/zeldas lullaby.mp3" type="button" target="_blank" class="glow-on-hover" download>Zelda's Lullaby</a></td>
+                <td><a href="RES/FiTheme.mp3" type="button" target="_blank" class="glow-on-hover" download>Fi's Theme</a></td>
+                <td><a href="RES/secret.mp3" type="button" target="_blank" class="glow-on-hover" download>Secret Revealed</a></td>
+                <td><a href="RES/stormsong.mp3" type="button" target="_blank" class="glow-on-hover" download>Song of Storms</a></td>
+            </tr>
+            <tr>
+                <td><a href="RES/epona.mp3" type="button" target="_blank" class="glow-on-hover" download>Epona's Song</a></td>
+                <td><a href="RES/water spring.mp3" type="button" target="_blank" class="glow-on-hover" download>Water Spring</a></td>
+                <td><a href="RES/death mountain.mp3" type="button" target="_blank" class="glow-on-hover" download>Death Mountain</a></td>
+                <td><a href="RES/clocktown3.mp3" type="button" target="_blank" class="glow-on-hover" download>Clock Town 3</a></td>
+            </tr>
+            <tr>
+                <td><a href="RES/lost woods.mp3" type="button" target="_blank" class="glow-on-hover" download>Lost Woods</a></td>
+                <td><a href="RES/bazaar.mp3" type="button" target="_blank" class="glow-on-hover" download>The Bazaar</a></td>
+                <td><a href="RES/gameover.mp3" type="button" target="_blank" class="glow-on-hover" download>Game Over</a></td>
+                <td><a href="RES/song of time.mp3" type="button" target="_blank" class="glow-on-hover" download>Song of Time</a></td>
+            </tr>
+        </table>
+        <br>
+        <br>
     </div>
 <!---End MP3 Files--->
 <script src="JS/date.js"></script>
