@@ -277,3 +277,115 @@ function skyloft() {
         $('#play').removeClass('glyphicon-pause')
     }
   }
+
+  function mask() {
+    var audio = document.getElementById('mask');
+    if (audio.paused) {
+        audio.play();
+        $('#play').removeClass('glyphicon-play-circle')
+        $('#play').addClass('glyphicon-pause')
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+        $('#play').addClass('glyphicon-play-circle')
+        $('#play').removeClass('glyphicon-pause')
+    }
+  }
+
+  function fairyfountain() {
+    var audio = document.getElementById('fountain');
+    if (audio.paused) {
+        audio.play();
+        $('#play').removeClass('glyphicon-play-circle')
+        $('#play').addClass('glyphicon-pause')
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+        $('#play').addClass('glyphicon-play-circle')
+        $('#play').removeClass('glyphicon-pause')
+    }
+  }
+
+  function clock2() {
+    var audio = document.getElementById('clock2');
+    if (audio.paused) {
+        audio.play();
+        $('#play').removeClass('glyphicon-play-circle')
+        $('#play').addClass('glyphicon-pause')
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+        $('#play').addClass('glyphicon-play-circle')
+        $('#play').removeClass('glyphicon-pause')
+    }
+  }
+
+  function linknightmare() {
+    var audio = document.getElementById('nightmare');
+    if (audio.paused) {
+        audio.play();
+        $('#play').removeClass('glyphicon-play-circle')
+        $('#play').addClass('glyphicon-pause')
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+        $('#play').addClass('glyphicon-play-circle')
+        $('#play').removeClass('glyphicon-pause')
+    }
+  }
+
+  function knight() {
+    var audio = document.getElementById('knight');
+    if (audio.paused) {
+        audio.play();
+        $('#play').removeClass('glyphicon-play-circle')
+        $('#play').addClass('glyphicon-pause')
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+        $('#play').addClass('glyphicon-play-circle')
+        $('#play').removeClass('glyphicon-pause')
+    }
+  }
+
+  function shadow() {
+    var audio = document.getElementById('shadow');
+    if (audio.paused) {
+        audio.play();
+        $('#play').removeClass('glyphicon-play-circle')
+        $('#play').addClass('glyphicon-pause')
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+        $('#play').addClass('glyphicon-play-circle')
+        $('#play').removeClass('glyphicon-pause')
+    }
+  }
+
+  function forest() {
+    var audio = document.getElementById('forest');
+    if (audio.paused) {
+        audio.play();
+        $('#play').removeClass('glyphicon-play-circle')
+        $('#play').addClass('glyphicon-pause')
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+        $('#play').addClass('glyphicon-play-circle')
+        $('#play').removeClass('glyphicon-pause')
+    }
+  }
+
+  function overworld() {
+    var audio = document.getElementById('overworld');
+    if (audio.paused) {
+        audio.play();
+        $('#play').removeClass('glyphicon-play-circle')
+        $('#play').addClass('glyphicon-pause')
+    }else{
+        audio.pause();
+        audio.currentTime = 0
+        $('#play').addClass('glyphicon-play-circle')
+        $('#play').removeClass('glyphicon-pause')
+    }
+  }

@@ -1,0 +1,15 @@
+button {
+    font-family: 'Press Start 2P', cursive;
+}
+a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    opacity: 0.6;
+}
+a:hover {
+    opacity: 1;
+}
+h3 {
+    text-shadow: 1px 1px 50px gold;
+}
